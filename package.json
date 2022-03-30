@@ -1,0 +1,27 @@
+{
+  "name": "package-starter",
+  "version": "0.0.0",
+  "description": "Template to create extension packages for node-jet",
+  "exports": [
+    "./src/index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-jet/package-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-jet/package-starter/issues"
+  },
+  "homepage": "https://github.com/node-jet/package-starter#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
